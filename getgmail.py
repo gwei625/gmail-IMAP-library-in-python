@@ -42,7 +42,7 @@ con.login(user, password)
 con.select('Inbox')
 
 # fetching emails from this user "tu**h*****1@gmail.com"
-msgs = get_emails(search('FROM', 'gaggarsona15@gmail.com', con))
+msgs = get_emails(search('FROM', 'tu***@gmail.com', con))
 
 # Uncomment this to see what actually comes as data
 print(msgs)
